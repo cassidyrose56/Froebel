@@ -13,10 +13,17 @@ class FullLogo extends StatelessWidget {
       child: Opacity(
         opacity: 0.3,
         child: Container(
-          width: 713,
-          height: 375,
-          color: AppTheme.colors.yellow,
-        ),
+            width: 713,
+            height: 375,
+            color: AppTheme.colors.yellow,
+            child: const Text.rich(TextSpan(text: 'Hello', children: <TextSpan>[
+              TextSpan(text: "F", style: TextStyle(fontStyle: FontStyle.italic))
+            ]
+                // 'Froebel',
+                // style: Theme.of(context)
+                //   .textTheme.titleLarge
+                //   .copyWith(color: AppTheme.colors.pink)
+                ))),
       ),
     ));
   }
