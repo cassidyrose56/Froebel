@@ -20,3 +20,11 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Capriola
+      fonts:
+        - asset: fonts/Capriola-Regular.ttf
+        - asset: fonts/Capriola-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Capriola-SemiBold.ttf
+          weight: 600
