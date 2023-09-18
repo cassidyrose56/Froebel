@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-@immutable 
+@immutable
 class AppColors {
-  final white = const Color(0xFFF8FFE5);
+  final white = const Color(0xFFFCFFF3);
   final pink = const Color(0xFFEF476F);
   final orange = const Color(0xFFF58467);
   final yellow = const Color(0xFFFAC05E);

@@ -11,7 +11,11 @@ class AppTheme {
   static ThemeData define() {
     return ThemeData(
       textTheme: TextTheme(
-        titleLarge: GoogleFonts.capriola(),
+        titleLarge: GoogleFonts.capriola(
+          textStyle: TextStyle(
+            fontFamily: 'Capriola',
+          )
+        ),
       ),
     );
   }

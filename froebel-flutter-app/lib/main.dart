@@ -17,10 +17,7 @@ class Froebel extends StatelessWidget {
       create: (context) => MyAppState(),
       child: MaterialApp(
         title: 'Froebel',
-        theme: ThemeData(
-          useMaterial3: true,
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
-        ),
+        theme: AppTheme.define(),
         home: HomePage(),
       ),
     );
